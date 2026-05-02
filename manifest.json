@@ -203,6 +203,38 @@
         "Archs": "x64"
       }
     },
+    "cowsay": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "cowsay",
+        "Title": "Messages, Warnings, Strings with Ascii Animals",
+        "Description": "Allows printing of character strings as messages/warnings/etc.\n    with ASCII animals, including cats, cows, frogs, chickens, ghosts,\n    and more.",
+        "Version": "1.2.2",
+        "License": "MIT + file LICENSE",
+        "Authors@R": "c(\n    person(\"Scott\", \"Chamberlain\", role = c(\"aut\", \"cre\"),\n      email = \"myrmecocystus@gmail.com\"),\n    person(\"Amanda\", \"Dobbyn\", role = c(\"aut\"),\n      email = \"amanda.e.dobbyn@gmail.com\"),\n    person(\"Tyler\", \"Rinker\", role = \"ctb\"),\n    person(\"Thomas\", \"Leeper\", role = \"ctb\"),\n    person(\"Noam\", \"Ross\", role = \"ctb\"),\n    person(\"Rich\", \"FitzJohn\", role = \"ctb\"),\n    person(\"Carson\", \"Sievert\", role = \"ctb\"),\n    person(\"Kiyoko\", \"Gotanda\", role = \"ctb\"),\n    person(\"Andy\", \"Teucher\", role = \"ctb\"),\n    person(\"Karl\", \"Broman\", role = \"ctb\"),\n    person(\"Franz-Sebastian\", \"Krah\", role = \"ctb\"),\n    person(\"Lucy\", \"D'Agostino McGowan\", role = \"ctb\"),\n    person(\"Guangchuang\", \"Yu\", role = \"ctb\"),\n    person(\"Philipp\", \"Boersch-Supan\", role = \"ctb\"),\n    person(\"Andreas\", \"Brandmaier\", role=\"ctb\"),\n    person(\"Marion\", \"Louveaux\", role=\"ctb\"),\n    person(\"David\", \"Schoch\", role = \"ctb\")\n    )",
+        "URL": "https://github.com/sckott/cowsay, https://sckott.github.io/cowsay/",
+        "BugReports": "https://github.com/sckott/cowsay/issues",
+        "Encoding": "UTF-8",
+        "Language": "en-US",
+        "VignetteBuilder": "knitr",
+        "Imports": "crayon, rlang",
+        "Suggests": "fortunes, rmsfact, knitr, rmarkdown, testthat",
+        "RoxygenNote": "7.3.2",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-10-29 05:59:49 UTC; sckott",
+        "Author": "Scott Chamberlain [aut, cre],\n  Amanda Dobbyn [aut],\n  Tyler Rinker [ctb],\n  Thomas Leeper [ctb],\n  Noam Ross [ctb],\n  Rich FitzJohn [ctb],\n  Carson Sievert [ctb],\n  Kiyoko Gotanda [ctb],\n  Andy Teucher [ctb],\n  Karl Broman [ctb],\n  Franz-Sebastian Krah [ctb],\n  Lucy D'Agostino McGowan [ctb],\n  Guangchuang Yu [ctb],\n  Philipp Boersch-Supan [ctb],\n  Andreas Brandmaier [ctb],\n  Marion Louveaux [ctb],\n  David Schoch [ctb]",
+        "Maintainer": "Scott Chamberlain <myrmecocystus@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-10-29 06:30:02 UTC",
+        "Built": "R 4.3.3; ; 2026-05-02 20:13:59 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "cowsay",
+        "RemoteRef": "cowsay",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "1.2.2"
+      }
+    },
     "crayon": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -228,6 +260,63 @@
         "Repository": "CRAN",
         "Date/Publication": "2024-06-20 13:00:02 UTC",
         "Built": "R 4.3.3; ; 2024-11-04 01:19:53 UTC; windows"
+      }
+    },
+    "curl": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "curl",
+        "Type": "Package",
+        "Title": "A Modern and Flexible Web Client for R",
+        "Version": "5.2.3",
+        "Authors@R": "c(\n    person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroenooms@gmail.com\",\n      comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"ctb\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+        "Description": "The curl() and curl_download() functions provide highly\n    configurable drop-in replacements for base url() and download.file() with\n    better performance, support for encryption (https, ftps), gzip compression,\n    authentication, and other 'libcurl' goodies. The core of the package implements a\n    framework for performing fully customized requests where data can be processed\n    either in memory, on disk, or streaming via the callback or connection\n    interfaces. Some knowledge of 'libcurl' is recommended; for a more-user-friendly\n    web client see the 'httr' package which builds on this package with http\n    specific tools and logic.",
+        "License": "MIT + file LICENSE",
+        "SystemRequirements": "libcurl: libcurl-devel (rpm) or\nlibcurl4-openssl-dev (deb).",
+        "URL": "https://jeroen.r-universe.dev/curl https://curl.se/libcurl/",
+        "BugReports": "https://github.com/jeroen/curl/issues",
+        "Suggests": "spelling, testthat (>= 1.0.0), knitr, jsonlite, later,\nrmarkdown, httpuv (>= 1.4.4), webutils",
+        "VignetteBuilder": "knitr",
+        "Depends": "R (>= 3.0.0)",
+        "RoxygenNote": "7.3.0",
+        "Encoding": "UTF-8",
+        "Language": "en-US",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-09-19 15:43:51 UTC; jeroen",
+        "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Hadley Wickham [ctb],\n  RStudio [cph]",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-09-20 11:50:24 UTC",
+        "Built": "R 4.3.3; x86_64-w64-mingw32; 2024-10-13 00:36:21 UTC; windows",
+        "Archs": "x64"
+      }
+    },
+    "data.table": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "data.table",
+        "Version": "1.15.2",
+        "Title": "Extension of `data.frame`",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "methods",
+        "Suggests": "bit64 (>= 4.0.0), bit (>= 4.0.4), R.utils, xts, zoo (>=\n1.8-1), yaml, knitr, markdown",
+        "Description": "Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns, friendly and fast character-separated-value read/write. Offers a natural and flexible syntax, for faster development.",
+        "License": "MPL-2.0 | file LICENSE",
+        "URL": "https://r-datatable.com, https://Rdatatable.gitlab.io/data.table,\nhttps://github.com/Rdatatable/data.table",
+        "BugReports": "https://github.com/Rdatatable/data.table/issues",
+        "VignetteBuilder": "knitr",
+        "ByteCompile": "TRUE",
+        "Authors@R": "c(\n  person(\"Tyson\",\"Barrett\",        role=c(\"aut\",\"cre\"), email=\"t.barrett88@gmail.com\"),\n  person(\"Matt\",\"Dowle\",           role=\"aut\",          email=\"mattjdowle@gmail.com\"),\n  person(\"Arun\",\"Srinivasan\",      role=\"aut\",          email=\"asrini@pm.me\"),\n  person(\"Jan\",\"Gorecki\",          role=\"aut\"),\n  person(\"Michael\",\"Chirico\",      role=\"aut\"),\n  person(\"Toby\",\"Hocking\",         role=\"aut\", comment = c(ORCID=\"0000-0002-3146-0865\")),\n  person(\"Pasha\",\"Stetsenko\",      role=\"ctb\"),\n  person(\"Tom\",\"Short\",            role=\"ctb\"),\n  person(\"Steve\",\"Lianoglou\",      role=\"ctb\"),\n  person(\"Eduard\",\"Antonyan\",      role=\"ctb\"),\n  person(\"Markus\",\"Bonsch\",        role=\"ctb\"),\n  person(\"Hugh\",\"Parsonage\",       role=\"ctb\"),\n  person(\"Scott\",\"Ritchie\",        role=\"ctb\"),\n  person(\"Kun\",\"Ren\",              role=\"ctb\"),\n  person(\"Xianying\",\"Tan\",         role=\"ctb\"),\n  person(\"Rick\",\"Saporta\",         role=\"ctb\"),\n  person(\"Otto\",\"Seiskari\",        role=\"ctb\"),\n  person(\"Xianghui\",\"Dong\",        role=\"ctb\"),\n  person(\"Michel\",\"Lang\",          role=\"ctb\"),\n  person(\"Watal\",\"Iwasaki\",        role=\"ctb\"),\n  person(\"Seth\",\"Wenchel\",         role=\"ctb\"),\n  person(\"Karl\",\"Broman\",          role=\"ctb\"),\n  person(\"Tobias\",\"Schmidt\",       role=\"ctb\"),\n  person(\"David\",\"Arenburg\",       role=\"ctb\"),\n  person(\"Ethan\",\"Smith\",          role=\"ctb\"),\n  person(\"Francois\",\"Cocquemas\",   role=\"ctb\"),\n  person(\"Matthieu\",\"Gomez\",       role=\"ctb\"),\n  person(\"Philippe\",\"Chataignon\",  role=\"ctb\"),\n  person(\"Nello\",\"Blaser\",         role=\"ctb\"),\n  person(\"Dmitry\",\"Selivanov\",     role=\"ctb\"),\n  person(\"Andrey\",\"Riabushenko\",   role=\"ctb\"),\n  person(\"Cheng\",\"Lee\",            role=\"ctb\"),\n  person(\"Declan\",\"Groves\",        role=\"ctb\"),\n  person(\"Daniel\",\"Possenriede\",   role=\"ctb\"),\n  person(\"Felipe\",\"Parages\",       role=\"ctb\"),\n  person(\"Denes\",\"Toth\",           role=\"ctb\"),\n  person(\"Mus\",\"Yaramaz-David\",    role=\"ctb\"),\n  person(\"Ayappan\",\"Perumal\",      role=\"ctb\"),\n  person(\"James\",\"Sams\",           role=\"ctb\"),\n  person(\"Martin\",\"Morgan\",        role=\"ctb\"),\n  person(\"Michael\",\"Quinn\",        role=\"ctb\"),\n  person(\"@javrucebo\",\"\",          role=\"ctb\"),\n  person(\"@marc-outins\",\"\",        role=\"ctb\"),\n  person(\"Roy\",\"Storey\",           role=\"ctb\"),\n  person(\"Manish\",\"Saraswat\",      role=\"ctb\"),\n  person(\"Morgan\",\"Jacob\",         role=\"ctb\"),\n  person(\"Michael\",\"Schubmehl\",    role=\"ctb\"),\n  person(\"Davis\",\"Vaughan\",        role=\"ctb\"),\n  person(\"Leonardo\",\"Silvestri\",   role=\"ctb\"),\n  person(\"Jim\",\"Hester\",           role=\"ctb\"),\n  person(\"Anthony\",\"Damico\",       role=\"ctb\"),\n  person(\"Sebastian\",\"Freundt\",    role=\"ctb\"),\n  person(\"David\",\"Simons\",         role=\"ctb\"),\n  person(\"Elliott\",\"Sales de Andrade\", role=\"ctb\"),\n  person(\"Cole\",\"Miller\",          role=\"ctb\"),\n  person(\"Jens Peder\",\"Meldgaard\", role=\"ctb\"),\n  person(\"Vaclav\",\"Tlapak\",        role=\"ctb\"),\n  person(\"Kevin\",\"Ushey\",          role=\"ctb\"),\n  person(\"Dirk\",\"Eddelbuettel\",    role=\"ctb\"),\n  person(\"Benjamin\",\"Schwendinger\", role=\"ctb\"),\n  person(\"Tony\",\"Fischetti\",       role=\"ctb\"),\n  person(\"Ofek\",\"Shilon\",          role=\"ctb\"),\n  person(\"Vadim\",\"Khotilovich\",    role=\"ctb\"),\n  person(\"Hadley\",\"Wickham\",       role=\"ctb\"),\n  person(\"Bennet\",\"Becker\",        role=\"ctb\"),\n  person(\"Kyle\",\"Haynes\",          role=\"ctb\"),\n  person(\"Boniface Christian\",\"Kamgang\", role=\"ctb\"),\n  person(\"Olivier\",\"Delmarcell\",   role=\"ctb\"),\n  person(\"Josh\",\"O'Brien\",         role=\"ctb\"),\n  person(\"Dereck\",\"de Mezquita\",   role=\"ctb\"),\n  person(\"Michael\",\"Czekanski\",    role=\"ctb\")\n  )",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-02-27 06:21:25 UTC; tysonbarrett",
+        "Author": "Tyson Barrett [aut, cre],\n  Matt Dowle [aut],\n  Arun Srinivasan [aut],\n  Jan Gorecki [aut],\n  Michael Chirico [aut],\n  Toby Hocking [aut] (<https://orcid.org/0000-0002-3146-0865>),\n  Pasha Stetsenko [ctb],\n  Tom Short [ctb],\n  Steve Lianoglou [ctb],\n  Eduard Antonyan [ctb],\n  Markus Bonsch [ctb],\n  Hugh Parsonage [ctb],\n  Scott Ritchie [ctb],\n  Kun Ren [ctb],\n  Xianying Tan [ctb],\n  Rick Saporta [ctb],\n  Otto Seiskari [ctb],\n  Xianghui Dong [ctb],\n  Michel Lang [ctb],\n  Watal Iwasaki [ctb],\n  Seth Wenchel [ctb],\n  Karl Broman [ctb],\n  Tobias Schmidt [ctb],\n  David Arenburg [ctb],\n  Ethan Smith [ctb],\n  Francois Cocquemas [ctb],\n  Matthieu Gomez [ctb],\n  Philippe Chataignon [ctb],\n  Nello Blaser [ctb],\n  Dmitry Selivanov [ctb],\n  Andrey Riabushenko [ctb],\n  Cheng Lee [ctb],\n  Declan Groves [ctb],\n  Daniel Possenriede [ctb],\n  Felipe Parages [ctb],\n  Denes Toth [ctb],\n  Mus Yaramaz-David [ctb],\n  Ayappan Perumal [ctb],\n  James Sams [ctb],\n  Martin Morgan [ctb],\n  Michael Quinn [ctb],\n  @javrucebo [ctb],\n  @marc-outins [ctb],\n  Roy Storey [ctb],\n  Manish Saraswat [ctb],\n  Morgan Jacob [ctb],\n  Michael Schubmehl [ctb],\n  Davis Vaughan [ctb],\n  Leonardo Silvestri [ctb],\n  Jim Hester [ctb],\n  Anthony Damico [ctb],\n  Sebastian Freundt [ctb],\n  David Simons [ctb],\n  Elliott Sales de Andrade [ctb],\n  Cole Miller [ctb],\n  Jens Peder Meldgaard [ctb],\n  Vaclav Tlapak [ctb],\n  Kevin Ushey [ctb],\n  Dirk Eddelbuettel [ctb],\n  Benjamin Schwendinger [ctb],\n  Tony Fischetti [ctb],\n  Ofek Shilon [ctb],\n  Vadim Khotilovich [ctb],\n  Hadley Wickham [ctb],\n  Bennet Becker [ctb],\n  Kyle Haynes [ctb],\n  Boniface Christian Kamgang [ctb],\n  Olivier Delmarcell [ctb],\n  Josh O'Brien [ctb],\n  Dereck de Mezquita [ctb],\n  Michael Czekanski [ctb]",
+        "Maintainer": "Tyson Barrett <t.barrett88@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-02-29 07:10:06 UTC",
+        "Built": "R 4.3.3; x86_64-w64-mingw32; 2024-03-17 01:37:07 UTC; windows",
+        "Archs": "x64"
       }
     },
     "digest": {
@@ -628,6 +717,60 @@
         "Archs": "x64"
       }
     },
+    "pkgsearch": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "pkgsearch",
+        "Title": "Search and Query CRAN R Packages",
+        "Version": "3.1.5",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Maëlle\", \"Salmon\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2815-0399\")),\n    person(\"R Consortium\", role = \"fnd\")\n  )",
+        "Description": "Search CRAN metadata about packages by keyword, popularity,\n    recent activity, package name and more. Uses the 'R-hub' search\n    server, see <https://r-pkg.org> and the CRAN metadata database, that\n    contains information about CRAN packages. Note that this is _not_ a\n    CRAN project.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/r-hub/pkgsearch,\nhttps://r-hub.github.io/pkgsearch/",
+        "BugReports": "https://github.com/r-hub/pkgsearch/issues",
+        "Imports": "curl, jsonlite",
+        "Suggests": "covr, memoise, mockery, pillar, pingr (>= 2.0.0), rstudioapi,\nshiny, shinyjs, shinyWidgets, testthat (>= 3.0.0), whoami,\nwithr",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.1.9000",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-04-12 09:10:04 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Maëlle Salmon [aut] (<https://orcid.org/0000-0002-2815-0399>),\n  R Consortium [fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-04-12 09:40:02 UTC",
+        "Built": "R 4.3.3; ; 2026-05-02 20:14:22 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "pkgsearch",
+        "RemoteRef": "pkgsearch",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "3.1.5"
+      }
+    },
+    "praise": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "praise",
+        "Title": "Praise Users",
+        "Version": "1.0.0",
+        "Author": "Gabor Csardi, Sindre Sorhus",
+        "Maintainer": "Gabor Csardi <csardi.gabor@gmail.com>",
+        "Description": "Build friendly R packages that\n    praise their users if they have done something\n    good, or they just need it to feel better.",
+        "License": "MIT + file LICENSE",
+        "LazyData": "true",
+        "URL": "https://github.com/gaborcsardi/praise",
+        "BugReports": "https://github.com/gaborcsardi/praise/issues",
+        "Suggests": "testthat",
+        "Collate": "'adjective.R' 'adverb.R' 'exclamation.R' 'verb.R' 'rpackage.R'\n'package.R'",
+        "NeedsCompilation": "no",
+        "Packaged": "2015-08-11 02:01:43 UTC; gaborcsardi",
+        "Repository": "CRAN",
+        "Date/Publication": "2015-08-11 08:22:28",
+        "Built": "R 4.3.3; ; 2024-04-14 00:36:28 UTC; windows"
+      }
+    },
     "promises": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -657,6 +800,41 @@
         "Date/Publication": "2024-04-05 15:00:06 UTC",
         "Built": "R 4.3.3; x86_64-w64-mingw32; 2024-04-06 23:50:57 UTC; windows",
         "Archs": "x64"
+      }
+    },
+    "randomNames": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "randomNames",
+        "Version": "1.6-0.0",
+        "Date": "2024-5-2",
+        "Title": "Generate Random Given and Surnames",
+        "Depends": "R (>= 4.0)",
+        "Suggests": "knitr, rmarkdown",
+        "Imports": "crayon, data.table (>= 1.14.0), toOrdinal (>= 1.1)",
+        "Authors@R": "c(person(given=c(\"Damian\", \"W.\"), family=\"Betebenner\", email=\"dbetebenner@nciea.org\", role=c(\"aut\", \"cre\")),\n                 person(given=\"Lambert\", family=\"Joshua\", role=\"ctb\"))",
+        "Maintainer": "Damian W. Betebenner <dbetebenner@nciea.org>",
+        "Description": "Function for generating random gender and ethnicity correct first and/or last names. Names are chosen proportionally based upon their probability of appearing in a large scale data base of real names.",
+        "URL": "https://centerforassessment.github.io/randomNames/,\nhttps://github.com/CenterForAssessment/randomNames/,\nhttps://cran.r-project.org/package=randomNames",
+        "BugReports": "https://github.com/CenterForAssessment/randomNames/issues/",
+        "VignetteBuilder": "knitr",
+        "LazyLoad": "Yes",
+        "LazyData": "Yes",
+        "LazyDataCompression": "xz",
+        "ByteCompile": "TRUE",
+        "License": "GPL-3",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-05-03 18:44:15 UTC; conet",
+        "Author": "Damian W. Betebenner [aut, cre],\n  Lambert Joshua [ctb]",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-05-04 06:30:03 UTC",
+        "Built": "R 4.3.3; ; 2025-04-07 03:02:14 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "randomNames",
+        "RemoteRef": "randomNames",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "1.6-0.0"
       }
     },
     "rappdirs": {
@@ -806,6 +984,39 @@
         "Archs": "x64"
       }
     },
+    "toOrdinal": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "toOrdinal",
+        "Version": "1.4-0.0",
+        "Date": "2026-2-5",
+        "Title": "Cardinal to Ordinal Number & Date Conversion",
+        "Description": "Language specific cardinal to ordinal number conversion.",
+        "Authors@R": "c(person(given=c(\"Damian\", \"W.\"), family=\"Betebenner\", email=\"dbetebenner@nciea.org\", role=c(\"aut\", \"cre\")),\n                person(given=\"Andrew\", family=\"Martin\", role=\"ctb\"),\n\t\tperson(given=\"Jeff\", family=\"Erickson\", role=\"ctb\"))",
+        "Maintainer": "Damian W. Betebenner <dbetebenner@nciea.org>",
+        "Depends": "R (>= 3.3)",
+        "Suggests": "knitr, rmarkdown, testthat",
+        "Imports": "crayon, pkgsearch",
+        "URL": "https://centerforassessment.github.io/toOrdinal/,\nhttps://github.com/centerforassessment/toOrdinal/,\nhttps://cran.r-project.org/package=toOrdinal",
+        "BugReports": "https://github.com/centerforassessment/toOrdinal/issues/",
+        "VignetteBuilder": "knitr",
+        "LazyLoad": "Yes",
+        "ByteCompile": "TRUE",
+        "License": "GPL-3",
+        "NeedsCompilation": "no",
+        "Packaged": "2026-02-05 19:49:29 UTC; conet",
+        "Author": "Damian W. Betebenner [aut, cre],\n  Andrew Martin [ctb],\n  Jeff Erickson [ctb]",
+        "Repository": "CRAN",
+        "Date/Publication": "2026-02-06 06:40:02 UTC",
+        "Built": "R 4.3.3; ; 2026-05-02 20:14:28 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "toOrdinal",
+        "RemoteRef": "toOrdinal",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "1.4-0.0"
+      }
+    },
     "withr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -864,10 +1075,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
-    },
-    "data/expansions.csv": {
-      "checksum": "0bafdfa2037a187b957b449885bd5e92"
+      "checksum": "db73c915ecf7fcd4fe57f66ed73ab52f"
     },
     "LICENSE": {
       "checksum": "72bd15bc3273ce35e99425c0214da54f"
